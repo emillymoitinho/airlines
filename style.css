@@ -70,7 +70,6 @@ main h1 {
     display: flex;
     flex-direction: column;
     margin-right: 80px;
-    overflow-y: scroll;
     
 }
 
@@ -78,8 +77,6 @@ main h1 {
     width: 300px;
     height: auto;
 }
-
-
 
 .destinations h3 {
     font-family: "Nunito Sans";
@@ -124,6 +121,21 @@ main h1 {
     background-color: var(--cor02);
 }
 
+.destination-header {
+    display: flex;
+    align-items: center;
+}
+
+.destination-mark {
+    display: inline-block;
+    width: 35px;
+    height: 10px;
+    background-color: var(--cor01);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+
 
 article#contact {
     display: flex;
@@ -147,6 +159,7 @@ article#contact {
     padding-left: 20px;
     padding-bottom: 50px;
 }
+
 
 footer {
     background-color: var(--cor01);
