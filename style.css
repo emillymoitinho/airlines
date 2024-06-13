@@ -17,7 +17,7 @@
 
 
 body {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Nunito Sans";
     background-color: var(--fundo);
 }
 
@@ -29,6 +29,8 @@ header {
 
 
 nav a {
+    font-family: "Nunito Sans";
+    font-weight: 600;
     color: #000000;
     text-decoration: none;
     padding: 10px;
@@ -49,16 +51,18 @@ main  {
 
 
 main h1 {
-    font-size: 3.5em;
-    font-family: monospace;
+    font-size: 80px;
+    font-family: "Nunito Sans";
     font-weight: lighter;
+    padding: 80px;
 
 }
 
 
+
 .direito {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;  
 }
 
@@ -66,7 +70,8 @@ main h1 {
  #img {
     display: flex;
     flex-direction: column;
-    margin-right: 50px;
+    margin-right: 80px;
+    overflow-y: scroll;
     
 }
 
@@ -75,13 +80,20 @@ main h1 {
     height: auto;
 }
 
-.destinations {
-    flex: 1;
-}
+
 
 .destinations h3 {
+    font-family: "Nunito Sans";
+    font-weight: 400;
     font-size: 1.5em;
     margin-bottom: 20px;
+}
+
+.destinations h4 {
+    font-family: "Nunito Sans";
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-bottom: 15px;
 }
 
 .destination {
@@ -97,6 +109,7 @@ main h1 {
 
 
 .destination a {
+    display: block;
     margin: 10px;
     padding: 10px 20px;
     background-color: var(--cor01);
@@ -113,15 +126,26 @@ main h1 {
 }
 
 
+article#contact {
+    display: flex;
+}
+
 #contact h1 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
+#contact img {
+    margin-left: 150px;
+}
 
-#contact h1 {
-    text-align: left;
-    padding: 10px;
+#contact p {
+    padding-bottom: 10px;
+}
+
+#p {
+    padding-left: 20px;
+    padding-bottom: 50px;
 }
 
 footer {
