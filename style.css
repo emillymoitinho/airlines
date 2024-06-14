@@ -59,7 +59,7 @@ main h1 {
 }
 
 
-.direito {
+.right-content {
     display: flex;
     justify-content: center;
     align-items: flex-tart;  
@@ -171,7 +171,7 @@ article#contact {
     margin-right: 10px;
 }
 
-#p {
+#contact-information {
     padding-left: 20px;
     padding-bottom: 50px;
 }
@@ -183,3 +183,4 @@ footer {
     margin-left: 50px;
     margin-bottom: 30px;
 }
+
