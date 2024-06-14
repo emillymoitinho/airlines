@@ -186,10 +186,6 @@ footer {
 
 @media (max-width: 768px) {
 
-    body {
-        display: block;
-    }
-
     header {
         height: 50px;
         width: 767px;
@@ -198,7 +194,7 @@ footer {
         
     header a {
         padding: 5px;
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .responsivo {
@@ -214,12 +210,17 @@ footer {
 
     main h1 {
         padding: 20px;
-        font-size: 50px;
+        font-size: 35px;
     }
 
     .right-content {
         display: block;
         
+    }
+
+    #img {
+        align-items: center;
+        margin-left: -45px;
     }
 
     #img img{
@@ -229,10 +230,15 @@ footer {
 
     #img-mark {
         display: flex;
-        height: 145px;
+        height: 185px;
         width: 6.5px;
         margin-top: -306px;
-        margin-left: 265px;
+        margin-left: 240px;
+    }
+
+    .destinations {
+        margin-left: auto; 
+        margin-right: auto; 
     }
 
     .destinations h3 {
@@ -243,16 +249,20 @@ footer {
     }
 
     .destination-header {
-        margin-left: 10px;
+        margin-left: auto; 
+        margin-right: auto; 
     }
 
     .destination img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 250px;
-        margin-left: 1px;
     }
 
     .destination a {
-        margin-left: 155px;
+        margin-left: auto; 
+        margin-right: auto; 
     }
 
     .destination h4 {
@@ -264,9 +274,21 @@ footer {
         width: 25px;
     }
 
+    article#contact {
+        display: block;
+    }
+
     #contact img {
         display: block;
         width: 250px;
         margin-left: 10px;
     }
+
+    footer {
+        padding: 11px;
+        margin: 0px 0px 0px 35px;
+    }
 }
+
+
+
