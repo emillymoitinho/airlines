@@ -184,3 +184,89 @@ footer {
     margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+
+    body {
+        display: block;
+    }
+
+    header {
+        height: 50px;
+        width: 767px;
+        padding: 10px;
+        }
+        
+    header a {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    .responsivo {
+        display: flex;
+        margin-bottom: 9px;
+        margin-left: 0px;
+    }
+                
+    main {
+        margin: 30px;
+        padding: 5px;
+    }
+
+    main h1 {
+        padding: 20px;
+        font-size: 50px;
+    }
+
+    .right-content {
+        display: block;
+        
+    }
+
+    #img img{
+        width: 230px;
+        margin-left: 30px;
+    }
+
+    #img-mark {
+        display: flex;
+        height: 145px;
+        width: 6.5px;
+        margin-top: -306px;
+        margin-left: 265px;
+    }
+
+    .destinations h3 {
+        display: flex;
+        font-size: 20px;
+        padding-left: 15px;
+        margin-top: 200px;
+    }
+
+    .destination-header {
+        margin-left: 10px;
+    }
+
+    .destination img {
+        width: 250px;
+        margin-left: 1px;
+    }
+
+    .destination a {
+        margin-left: 155px;
+    }
+
+    .destination h4 {
+        font-size: 12px;
+    }
+
+    .destination-mark {
+        height: 8px;
+        width: 25px;
+    }
+
+    #contact img {
+        display: block;
+        width: 250px;
+        margin-left: 10px;
+    }
+}
