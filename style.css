@@ -62,7 +62,7 @@ main h1 {
 .direito {
     display: flex;
     justify-content: center;
-    align-items: flex-start;  
+    align-items: flex-tart;  
 }
 
 
@@ -76,6 +76,15 @@ main h1 {
 #img img {
     width: 300px;
     height: auto;
+}
+
+#img-mark {
+    display: inline-grid;
+    width: 25px;
+    height: 10px;
+    background-color: var(--cor01);
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
 .destinations h3 {
@@ -153,6 +162,15 @@ article#contact {
 
 #contact p {
     padding-bottom: 10px;
+}
+
+.contact-mark {
+    display: inline-grid;
+    width: 25px;
+    height: 10px;
+    background-color: var(--cor01);
+    border-radius: 5px;
+    margin-right: 10px;
 }
 
 #p {
